@@ -61,7 +61,7 @@ nav button{
 
 .header-content{
     position:absolute;
-    top:40%;
+    top:20%;
     left: 30%;
     transform: translate(-50% -50%);
     text-align: center;
@@ -77,5 +77,57 @@ nav button{
 
 .header-content h3{
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content p{
+    font-size: 16px;
+    margin-left: 50px;
+    font-weight: 300;
+    max-width: 500px;
+}
+
+.email-signup input {
+    width: 243px;
+    height: 56px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background: transparent;
+
+}
+
+.email-signup input:active{
+    border: 3px solid white;
+}
+
+.email-signup input:hover{
+    border: 3px solid white;
+}
+
+.email-signup button{
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #db0001;
+    font-size: 1.125rem;
+    line-height: 1;
+    margin-left: 10px;
+    letter-spacing: normal;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    width: 180px;
+    height: 56px;
+}
+
+.email-signup button:hover{
+    
+    background-color: #712121;
+}
+
+.email-signup button:active{
+    
+    background-color: #712121;
 }
